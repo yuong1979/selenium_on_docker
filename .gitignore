@@ -1,0 +1,41 @@
+
+
+
+# Ignore compiled Python files
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+
+# Ignore virtual environment files
+venv/
+env/
+*.env
+
+# Ignore Python package dependencies
+*.egg-info/
+dist/
+build/
+*.egg
+
+# Ignore local development settings
+*.env
+*.log
+
+# Ignore IDE specific files
+.vscode/
+.idea/
+
+# Ignore system and editor files
+.DS_Store
+Thumbs.db
+
+
+# Files to be excluded from version control
+FirebaseServiceAccountKey.json
+GooglesheetsServiceAccountKey.json
+p_insert_new_tickers.py
+p_update_ticker_stats.py
+firebase_to_googlesheets.py
+functions.py
+guidelines.txt
